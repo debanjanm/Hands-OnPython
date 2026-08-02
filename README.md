@@ -1,25 +1,21 @@
-# Hands-On Python
+# Hands-On Programming
 
-Personal from-scratch Python learning repo. Every topic is a single, runnable
-`.py` file — no notebooks, no frameworks. Each file is self-contained and
-can be run directly:
-
-```bash
-python3 "01-Python Fundamentals/01-Fundamentals.py"
-```
+A practical collection of coding exercises and snippets covering core
+programming concepts across language categories — no notebooks, no
+frameworks, every file runs standalone and is verified by actually running
+it.
 
 ## Structure
 
-| Folder | Covers |
-|---|---|
-| [01-Python Fundamentals](01-Python%20Fundamentals/README.md) | Syntax, variables, operators, control flow |
-| [02-Data Types](02-Data%20Types/README.md) | Primitives, strings, list/tuple/set/dict, casting, comprehensions |
-| [03-OOPs](03-OOPs/README.md) | Functions, classes, the four OOP pillars, decorators, SOLID |
-| [04-Python Advanced](04-Python%20Advanced/README.md) | Iterators/generators, exceptions, files, modules, concurrency, async |
-| [05-Standard Library](05-Standard%20Library/README.md) | collections, datetime, os/sys, json/csv, pathlib, typing, logging, enum, unittest, argparse |
+| Category | Language(s) | Covers |
+|---|---|---|
+| [01-GeneralPurposeLanguage](01-GeneralPurposeLanguage/README.md) | Python | Syntax through advanced OOP, concurrency, async, SOLID, standard library |
+| [02-DomainSpecificLanguage](02-DomainSpecificLanguage/README.md) | SQL | Querying, joins, aggregation, subqueries, window functions, schema design |
+| [03-Scripting](03-Scripting/README.md) | Bash | Shell fundamentals, control flow, text processing, process control |
 
-Study in folder order (01 → 05); files within each folder are numbered in the
-order they're meant to be read.
+Each category folder is named by kind, not by language, so a second language
+in the same category (e.g. another general-purpose or scripting language)
+slots in as a sibling folder without renaming anything.
 
 ## Conventions
 
@@ -30,3 +26,5 @@ order they're meant to be read.
 - Files go beyond basic syntax where it matters: gotchas, performance/
   internals notes, and real-world patterns are included alongside the core
   API, not just a minimal example.
+- Each language folder has its own README with the full file list and study
+  order.
